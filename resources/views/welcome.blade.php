@@ -55,6 +55,13 @@
                                     @endif
                                 @endauth
                             </nav>
+                            <nav>
+                                <ul>
+                                    <li><a href="{{ route('blogs.index') }}">Blogs</a></li>
+                                    <!-- Voeg andere navigatielinks toe zoals Home, Contact, etc. -->
+                                </ul>
+                            </nav>
+                            
                         @endif
                     </header>
 
